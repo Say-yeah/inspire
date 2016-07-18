@@ -1,11 +1,5 @@
-@mixin tx-roboto($w:100) {
-	font-family: 'Roboto', sans-serif;
-	font-weight: $w;
-}
-
-@mixin tx-noto() {
-	font-family: "Noto Sans Japanese", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif;
-	font-weight: 100;
+@mixin tx-en() {
+	font-family: 'Montserrat', sans-serif;
 }
 
 @mixin tran($param:0.4s ease-in-out) {
@@ -72,9 +66,9 @@ $easeInOutBack: cubic-bezier(0.680, -0.550, 0.265, 1.550);
 }
 
 @mixin text-out() {
-	text-indent:     100%;
-	white-space:     nowrap;
-	overflow:        hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
 }
 
 @mixin wc($width) {
